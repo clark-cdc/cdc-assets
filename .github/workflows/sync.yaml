@@ -11,5 +11,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
         with:
-          source-repo: git@github.com:cdc-x/cdc-study-blogs.git
-          destination-repo: git@gitee.com:chendacheng/cdc-study-blogs.git
+          source-repo: git@github.com:clark-cdc/cdc-assets.git
+          destination-repo: git@gitee.com:chendacheng/cdc-assets.git
